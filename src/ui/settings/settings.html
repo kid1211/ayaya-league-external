@@ -28,14 +28,14 @@
 <body>
 
 
-    <!-- <div class="loader">
+    <div class="loader">
         <img src="assets/ayaya_poster.jpg" alt="AyayaPoster">
         <div class="loader-text">
             Loading...
         </div>
-    </div> -->
+    </div>
 
-    <!-- <div id="app">
+    <div id="app">
         <div class="settings">
             <div class="content">
 
@@ -54,7 +54,7 @@
 
                 </div>
 
-                <template v-for="script of scripts">
+                <!-- <template v-for="script of scripts">
                     <template v-for="s of script.settings">
 
                         <div v-if="s.title" class="settings-title"> {{s.title}} </div>
@@ -98,10 +98,10 @@
                         </div>
 
                     </template>
-                </template>
+                </template> -->
 
 
-                <div class="settings-title"> Donations </div>
+                <!-- <div class="settings-title"> Donations </div>
                 <div class="settings-content">
                     <div class="setting">
                         <div class="setting-text"> Donations </div>
@@ -120,37 +120,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="settings-desc"> You can support AyayaLeague at <br> ko-fi.com/ayayaleague</div>
+                <div class="settings-desc"> You can support AyayaLeague at <br> ko-fi.com/ayayaleague</div> -->
 
 
 
                 <div class="settings-title"> Developers </div>
                 <div class="settings-content">
-                    <div class="setting">
+                    <!-- <div class="setting">
                         <div class="setting-text"> Game status: </div>
                         <div class="setting-value" style="padding: 6px;">
                             <el-tag v-if="inGame==false" class="ml-2" type="danger" round plain> notInGame </el-tag>
                             <el-tag v-if="inGame==true" class="ml-2" round plain> inGame </el-tag>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="setting">
                         <div class="setting-text"> Reload scripts </div>
                         <div class="setting-value" style="padding: 6px;">
                             <el-button @click="reloadScripts($event)" type="primary" plain> Reload scripts </el-button>
                         </div>
                     </div>
-                    <div class="setting">
+                    <!-- <div class="setting">
                         <div class="setting-text"> Close </div>
                         <div class="setting-value" style="padding: 6px;">
                             <el-button @click="closeWindow()" type="danger"> Close </el-button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="settings-desc"> Developer things </div>
 
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <script src="https://unpkg.com/vue@3"></script>

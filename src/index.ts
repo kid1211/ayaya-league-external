@@ -55,7 +55,7 @@ function createOverlay() {
     return win;
 }
 function createSettings() {
-
+    // TODO: use getAllDisplays to show on secondary 
     const win = new BrowserWindow({
         width: 350,
         height: 500,

@@ -33,7 +33,9 @@ function canAttack(attackDelay) { return lastAaTick + attackDelay < getTime() }
 function canMove(windupTime) { return (lastAaTick + windupTime < getTime() || canPlayerMove) }
 
 async function onTick(getSetting) {
-    console.log(manager.me.spells)
+    console.log(manager.me);
+    // console.log("hye")
+    console.log(getSetting());
 }
 
 function onDraw(getSetting) {
